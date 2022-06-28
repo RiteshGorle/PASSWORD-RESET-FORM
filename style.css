@@ -1,0 +1,126 @@
+/******************* NAVIGATION BAR    *******************/
+
+.navbar{
+  background-color: #33A0D9;
+}
+
+
+
+/******************* MAIN CONTENT  *******************/
+  .mainDiv {
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 1200px 600px;
+    top: 700px;
+    background-blend-mode: lighten;
+    font-family:  sans-serif;
+}
+
+
+ .cardStyle {
+    width: 500px;
+    border-color: white;
+    
+    padding: 36px 0;
+    border-radius: 4px;
+    margin: 30px 0;
+    
+  }
+
+.formTitle{
+  font-weight: 900;
+  margin-top: 20px;
+  color: #000000;
+  
+
+}
+.inputLabel {
+  font-size: 14px;
+  font-weight: 900;
+  color: #000000;
+  margin-bottom: 6px;
+  margin-top: 24px;
+  letter-spacing: 5px;
+}
+  .inputDiv {
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+input {
+  height: 40px;
+  font-size: 16px;
+ 
+  border: none;
+  border: solid 2px #000;
+  padding: 0 11px;
+}
+input:disabled {
+  cursor: not-allowed;
+  border: solid 1px #eee;
+}
+.buttonWrapper {
+  margin-top: 40px;
+}
+  .submitButton {
+    width: 64%;
+    height: 40px;
+    margin: auto;
+    display: block;
+    color: #fff;
+    background-color: #000000;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.035);
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+.submitButton:disabled,
+button[disabled] {
+  border: 1px solid #cccccc;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+  
+
+
+
+/******************* FOOTER *******************/
+
+.horz-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2180B3;
+}
+
+.horz-list1 {
+  float: left;
+}
+
+.horz-list a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 26px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.horz-list a:hover {
+  background-color: #111111;
+}
